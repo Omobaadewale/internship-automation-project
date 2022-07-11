@@ -1,6 +1,7 @@
 # Created by Adewale at 7/10/2022
-Feature: # Enter feature name here
-  # Enter feature description here
+Feature: A test to verify gettop main page
 
-  Scenario: # Enter scenario name here
-    # Enter steps here
+  Scenario: Opening loggin page
+  Given     open gettop page
+    When    User clicks 'lost your password'link
+    Then    verify user is taken to 'My Account'page
