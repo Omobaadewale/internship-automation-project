@@ -7,8 +7,9 @@ class Page:
     def __init__(self, driver):
         self.driver = driver
         self.wait = WebDriverWait(self.driver, 10)
-        self.base_url = 'https://gettop.us/my-account/'
+        #self.base_url = 'https://gettop.us/my-account/'
         self.expected_text = 'BEST SELLING'
+        self.base_url = 'https://gettop.us/'
 
     def click(self, *locator):
         self.driver.find_element(*locator).click()
