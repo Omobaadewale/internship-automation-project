@@ -35,6 +35,7 @@ def verify_my_account(context, expected_result):
 @then('verify each drop down link is clickable')
 def verify_link1_clickable(context):
     context.app.main_page.verify_cases_clickable()
+    sleep(5)
 
 
 @then('verify airpod wireless link is clickable')
