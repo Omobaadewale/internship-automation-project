@@ -37,14 +37,14 @@ def browser_init(context, test_name):
     # context.driver = EventFiringWebDriver(webdriver.Chrome(chrome_options = options), MyListener())
 
     ### for browerstack ###
-    #desired_cap = {
+    desired_cap = {
          #'browser': 'Firefox',
          #'os_version': 'Big Sur',
          #'os': 'OS X',
          #'name': test_name
      }
-    #url = f'http://{bs_user}:{bs_pw}@hub-cloud.browserstack.com/wd/hub'
-    #context.driver = webdriver.Remote(url, desired_capabilities=desired_cap)
+    url = f'http://{bs_user}:{bs_pw}@hub-cloud.browserstack.com/wd/hub'
+    context.driver = webdriver.Remote(url, desired_capabilities=desired_cap)
 
     context.driver.maximize_window()
     context.driver.implicitly_wait(5)

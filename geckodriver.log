@@ -1,0 +1,11 @@
+1658188563631	geckodriver	INFO	Listening on 127.0.0.1:55324
+1658188566533	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\Adewale\\AppData\\Local\\Temp\\rust_mozprofile8SPaKa"
+1658188567328	Marionette	INFO	Marionette enabled
+1658188567573	Marionette	INFO	Listening on port 55341
+Read port: 55341
+Read port: 55341
+1658188571904	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Adewale\\AppData\\Local\\Temp\\rust_mozprofile8SPaKa\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://gettop.us"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://gettop.us"
+1658188594856	Marionette	INFO	Stopped listening on port 55341
